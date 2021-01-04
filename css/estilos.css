@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+
+h1 {
+  font-weight: 900;
+  text-align: center;
+  
+}
+.table table-bordered {
+  float: right;
+}
+.centrar-texto {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn btn-success {
+  float: right;
+}
+.card-body {
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  border-style: solid;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  background-color: black;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.producto {
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  color: rgb(0, 153, 255);
+  font: 16pt "Quicksand", sans-serif;;
+  font-weight: 500;
+}
+.descripcion {
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  color: white;
+  font: 17pt "Quicksand", sans-serif;
+  font-weight: 500;
+}
+.precio-venta {
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  color:  rgb(250, 250, 250);
+  font: 17pt "Quicksand", sans-serif;;
+  font-weight: 500;
+}
+.precio {
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  color: rgb(0, 153, 255);
+  font: 15pt "Quicksand", sans-serif;;
+  font-weight: 500;
+}
+.card-title{
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  font: 15pt "Quicksand", sans-serif;;
+  font-weight: 500;
+}
+.card-text{
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  font: 15pt "Quicksand", sans-serif;;
+  font-weight: 500;
+}
+.card-des{
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  font: 14pt "Quicksand", sans-serif;;
+  font-weight: 400;
+  height: 100px;
+  overflow-y: scroll;
+  
+}
+.card-des::-webkit-scrollbar{
+    color: white;
+    width: 7px;
+}
+.card-des::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+.btn-comprar{
+  background: white;
+}
+
+/* Follow */
+.social {
+  margin: 50px;
+}
+.social p {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links a {
+  margin: 0 30px;
+}
+
+.links a i {
+  font-size: 3rem;
+}
+.formterminar{
+  margin-bottom: 50px;
+}

@@ -1,0 +1,10 @@
+.fas
+{
+    color: rgb(219, 219, 219);
+    font-size: 40px;
+}
+.fas:hover
+{
+    transition: 0.3s ease-in;
+    color: rgb(177, 19, 19);
+}

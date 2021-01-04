@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <?php
+   for($b=0;$b<count($fila);$b++)
+   {
+       ?>
+        <tr>
+        <script src="js/funciones.js"></script>
+            <td><?php echo $fila[$b]['id_venta'];?></td>
+            <td><?php echo $fila[$b]['codigo'];?></td>
+            <td><?php echo $fila[$b]['id_cliente'];?></td>
+            <td><?php echo $fila[$b]['cantidad'];?></td>
+            <td><?php echo $fila[$b]['fecha'];?></td>
+            <td><?php echo $fila[$b]['total_venta'];?></td>
+            <?php
+            if (!(isset($_GET['m']) and $_GET['m'] == 1)) {
+                ?>
+                <td><a href="#" title="Editar datos de la venta" onClick="window.location='editar_ventas.php?id=<?php echo $fila[$b]['id_venta']; ?>'"><i class="fas fa-pencil-alt"></i></a></td>
+                <td><a href="#" title="Eliminar datos de la venta" onClick="eliminar(<?php echo $fila[$b]['id_venta']; ?>,'eliminar_ventas.php');"><i class="fas fa-trash"></i></a></td>
+        
+            </tr>
+            <?php
+            }
+    }
+    ?>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <?php
+   for($a=0;$a<count($fila);$a++)
+   {
+       ?>
+        <tr>
+        <script src="js/funciones.js"></script>
+            <td><?php echo $fila[$a]['id_perfil'];?></td>
+            <td><?php echo $fila[$a]['perfil'];?></td>
+            <?php
+            if (!(isset($_GET['m']) and $_GET['m'] == 1)) {
+                ?>
+                <td><a href="#" title="Editar datos del perfil" onClick="window.location='editar_perfiles.php?id=<?php echo $fila[$a]['id_perfil']; ?>'"><i class="fas fa-pencil-alt"></i></a></td>
+                <td><a href="#" title="Eliminar datos del perfil" onClick="eliminar(<?php echo $fila[$a]['id_perfil']; ?>,'eliminar_perfiles.php');"><i class="fas fa-trash"></i></a></td>
+        
+            </tr>
+            <?php
+            }
+    }
+    ?>
+</body>
+</html>

@@ -1,0 +1,39 @@
+.tablaventas{
+    width: 95%;
+    text-align: center;
+    align-items: center;
+    table-layout: auto;
+    background-color: black;
+    color: white;
+    margin: 25px 0;
+    margin-left: 30px;
+    border-collapse: collapse;
+    border-radius: 5px 5px 0 0;
+}
+.tablaventas thead th{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.tablaventas th,
+.tablaventas td{
+    padding: 12px 15px;
+}
+.tablaventas tbody tr{
+    border: 2px solid rgb(24, 24, 24, 1);
+}
+.tablaventas tbody tr:nth-of-type(even){
+    background-color: rgb(32, 32, 32, 1);
+}
+.btnsuccess{
+    padding: 6px;
+    margin-left: 30px;
+    background-color: rgb(21, 179, 34);
+    color: white;
+    border-radius: 3px;
+}
+.btnsuccess:hover{
+    color: white;
+    background-color: rgb(10, 170, 23);
+    transition: 0.5s ease-in;
+}

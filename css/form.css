@@ -1,0 +1,59 @@
+input[type="text"],select{
+    width: 90%;
+    height: 30px;
+    font-size: 1.1em;
+    font-weight: bolder;
+    background-color: rgb(33, 36, 37);
+    border: none;
+    border-bottom: 4px solid black;
+    padding-left: 10px;
+    text-shadow: 0px 0px 2px rgb(82, 79, 79);
+    letter-spacing: 1px;
+    transition: 0.5s ease;
+}
+
+select{
+    width: 40%;   
+}
+
+input[type="text"]:focus,select:focus{
+    border-radius: 10px;
+    height: 40px;
+    background:rgb(13, 13, 14);
+}
+#tablita{
+    width: 90%;
+    margin: 20px auto;
+    
+}
+table{
+    width: 100%;
+    border-bottom: 3px solid  rgb(40, 39, 44);
+    text-shadow: 0px 0px 1px black;
+    letter-spacing: 1px;
+}
+th{
+    background-color: rgb(78, 75, 90);
+    color: white;
+}
+#pie{
+    margin-bottom: 15px;
+}
+#pie>h3{
+    font-size: 1.2em;
+    padding-left: 20px;
+}
+input[type="date"]{
+    color: black;
+}
+input[type="datetime-local"]{
+    color: black;
+}
+.img-vid{
+    height: 350px;
+    width: 250px;
+}
+.text-camp{
+    width: 500px;
+    height: 100px;
+}
